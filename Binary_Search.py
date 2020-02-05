@@ -41,3 +41,9 @@ def return_binary_search(arr, target, start, end):
 
 print("Pass" if binary_search_using_recursion(arr, 10)== -1 else "Fail")
 print("Pass" if binary_search_using_recursion(arr, 4)== 4 else "Fail")
+
+# Time complexity:
+#     O(logn)
+# Space complexity:
+#     Recursion:  Let number of iteration be m = log(n). So space complexity considering the call stack space  = O(logn)
+#     lop: O(1)
