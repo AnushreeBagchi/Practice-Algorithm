@@ -27,4 +27,12 @@ def sort_a_little(items, begin_index, end_index):
 
 items = [8, 3, 1, 7, 0, 10, 2]
 quick_sort(items)
-print(items)
+print("Pass" if items == [0,1,2,3,7,8,10] else "Fail")
+
+items = [1, 0]
+quick_sort(items)
+print("Pass" if items == [0,1] else "Fail")
+
+items = [96, 97, 98]
+quick_sort(items)
+print("Pass" if items == [96,97,98] else "Fail")
